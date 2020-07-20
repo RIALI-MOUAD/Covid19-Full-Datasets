@@ -1,0 +1,8 @@
+#!/bin/bash
+
+git init
+git add .
+git commit -m 'First commit'
+git remote https://github.com/RIALI-MOUAD/Covid19-Full-Datasets.git
+git remote add origin https://github.com/RIALI-MOUAD/Covid19-Full-Datasets.git
+git push -u origin master
