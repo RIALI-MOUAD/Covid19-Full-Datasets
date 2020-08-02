@@ -8,7 +8,7 @@ def listeDates(s,f):
     D=[]
     start = s
     end = f
-    date_generated = [start + datetime.timedelta(days=x) for x in range(0, (end-start).days)]
+    date_generated = [start + datetime.timedelta(days=x) for x in range(0, (end-start).days+1)]
 
     for date in date_generated:
         D.append(date.strftime("%Y-%m-%d"))
